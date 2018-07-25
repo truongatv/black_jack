@@ -153,3 +153,9 @@ img{
 	color: green;
 	font-size: 21px;
 }
+#hit, #stand{
+	display: none;
+}
+#start{
+	margin-top: 20px;
+}
