@@ -3,8 +3,6 @@
 <head>
 <title>Blackjack ゲーム</title>
 <link href="style.css" rel="stylesheet">
-<script src="blackjack.js"></script>
-<script src="jquery.js"></script>
 </head>
 <body>
 	<div class='page'>
@@ -18,8 +16,7 @@
                 <img src="png/z01.png" id="poke2">
             </div>
             
-            <div class='new-cards'>
-                <img src="" id="poke3">
+            <div class='new-cards' id="poker3">
             </div>
             <div id='dealerTotal' class='dealer-total'></div>
             
@@ -28,19 +25,20 @@
         <div class='player-cards'>
             <div><span>プレイヤー</span></div>
             <div class='card card1'>
-                    <img src="png/z02.png" id="user-poke1">
+                <img src="png/z02.png" id="user-poke1">
             </div>
             <div class='card card2'>
-                    <img src="png/z02.png" id="user-poke2">
+                <img src="png/z02.png" id="user-poke2">
             </div>
-            <div class='card new-cards'>
-                <img src="" id="user-poke3">
+            <div class='card new-cards' id="user-poker3">
+                <!-- <img src="" id="user-poke3"> -->
             </div>
             <div id='playerTotal' class='player-total'></div>  
         </div>
         
         <div class='buttons'>
-            <div class="btn" id="start">Start Game!</div>
+			<div class="btn" id="start">Start Game!</div>
+			<div class="btn" id="deal">Deal</div>
         	<div class='btn' id='hit'>Hit</div>
         	<div class='btn' id='stand'>Stand</div>
     	</div>
@@ -65,4 +63,5 @@
         <div id='message' class='message'></div>   
     </div>
 </body>
+<script src="script.js"></script>
 </html> 

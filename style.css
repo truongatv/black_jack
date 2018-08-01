@@ -159,3 +159,7 @@ img{
 #start{
 	margin-top: 20px;
 }
+
+#deal{
+	display: none;
+}
